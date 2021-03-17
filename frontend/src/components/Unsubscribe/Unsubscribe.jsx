@@ -27,10 +27,7 @@ function Unsubscribe() {
       return;
     }
 
-    setRequest({
-      url: url,
-      opts: { method: 'post' },
-    });
+    setRequest({ url });
   }
 
   let buttonText;

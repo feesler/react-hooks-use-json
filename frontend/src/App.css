@@ -186,33 +186,10 @@
   max-width: 400px;
 }
 
-.loading-message {
-  display: none;
-  font-size: 1.2rem;
-}
-
-.tickets.loading .loading-message {
-  display: inline;
-}
-
-.error-message {
-  display: none;
-  font-size: 1.2rem;
-  color:#dc3545;
-}
-
-.tickets.error .error-message {
-  display: inline;
-}
-
 .tickets-list {
   list-style: none;
   padding: 0;
   margin: 0;
-}
-
-.tickets.loading .tickets-list {
-  display: none;
 }
 
 .ticket {
@@ -256,10 +233,36 @@
 }
 
 .ticket-price {
+  display: none;
   margin-left: auto;
   font-weight: 400;
   padding: 0.5rem;
   color: #ffffff;
   background-color: #0d6efd;
   border-radius: 0.5rem;
+}
+
+.price-ok .ticket-price {
+  display: inline;
+}
+
+.ticket-loading {
+  display: none;
+  margin-left: auto;
+  font-size: 1rem;
+}
+
+.ticket.loading .ticket-loading {
+  display: inline;
+}
+
+.ticket-error {
+  display: none;
+  margin-left: auto;
+  font-size: 1.2rem;
+  color: #dc3545;
+}
+
+.ticket.error .ticket-error {
+  display: inline;
 }

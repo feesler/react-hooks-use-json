@@ -1,14 +1,12 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "Server for React useJsonFetch hook",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "prestart": "npm install",
     "start": "forever server.js",
-    "watch": "forever -w server.js",
-    "restart": "forever restartall",
-    "stop": "forever stopall"
+    "watch": "forever -w server.js"
   },
   "author": "",
   "license": "ISC",
@@ -17,7 +15,6 @@
     "koa": "^2.7.0",
     "koa-body": "^4.1.0",
     "koa-router": "^7.4.0",
-    "koa2-cors": "^2.0.6",
-    "nanoid": "^3.1.20"
+    "koa2-cors": "^2.0.6"
   }
 }
